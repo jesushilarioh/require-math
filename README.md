@@ -12,6 +12,52 @@ add(x, y) {
 ```javascript
 require_math.Basic_Math.add(1, 2); // 3
 ```
-### .add()
+### .divde()
+#### Syntax:
+```javascript
+divide(x, y) {
+  return x / y;
+}
+```
+#### Example:
+```javascript
+console.log(math.Basic_Math.divide(1, 2));  // 0.5
+```
+
+### .modulus()
+#### Syntax:
+```javascript
+modulus(x, y) {
+    return x % y;
+}
+```
+#### Example:
+```javascript
+console.log(math.Basic_Math.modulus(1, 2)); // 1
+```
+
+### .multiply()
+#### Syntax:
+```javascript
+multiply(x, y) {
+    return x * y;
+}
+```
+#### Example:
+```javascript
+console.log(math.Basic_Math.multiply(1, 2));  // 2
+```
+### .subtract()
+#### Syntax:
+```javascript
+subtract(x, y) {
+    return x - y;
+}
+```
+#### Example:
+```javascript
+console.log(math.Basic_Math.subtract(1, 2));  // -1
+```
+
 
 ### require_math.Formulas
