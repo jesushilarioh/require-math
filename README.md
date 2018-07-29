@@ -4,8 +4,11 @@ require-math is a project I've embarked upon while learning how to use the requi
 At this point I have decided to make this repository into a npm publish package.
 
 ### Basic-Math
+#### add()
 ```javascript
-require_math.Basic_Math.add(a, b);
+require_math.Basic_Math.add(1, 2); // 3
+// add(x, y) {
+//   return x + y;
+// }
 ```
-
 ### Formulas
