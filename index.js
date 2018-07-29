@@ -58,3 +58,37 @@ exports.Formulas = {
     }
   }
 }
+
+exports.Annulus = {
+  area = {
+    inner_outer_radius_defined(r, R) {
+      return Math.PI * (Math.pow(R, 2) - Math.pow(r, 2));
+    },
+    average_radius_width_defined(p, w) {
+      return 2 * Math.PI * p * w;
+    }
+  },
+  average_radius(r, R) {
+    return .5 * (r + R);
+  },
+  width(r, R) {
+    return R - r;
+  }
+}
+
+exports.Circle = {
+  area(r) {
+    return Math.PI * Math.pow(r, 2);
+  },
+  circumference = {
+    diameter_defined(d) {
+      return Math.PI * d;
+    },
+    radius_defined(r) {
+      return 2 * Math.PI * r;
+    }
+  },
+  diameter(r){
+    return 2 * r;
+  } 
+}
