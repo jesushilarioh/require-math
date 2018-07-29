@@ -31,7 +31,7 @@ require_math.Basic_Math.multiply(1, 2);  // 2
 ```javascript
 require_math.Basic_Math.subtract(1, 2);  // -1
 ```
-
+<br/><br/>
 ### *require_math.Formulas.Area* 
 #### .circle()
 ```javascript
