@@ -1,16 +1,16 @@
 # require-math
 require-math is a project I've embarked upon while learning how to use the require in Node.js; Specifically, using the require keyword to require files within a project to use their functions by way of module exports. This repository has become has been published to npm.
-
-## Basic_Math
-### add()
-#### Syntax:
+## Export Members
+### Basic_Math
+#### add()
+##### Syntax:
 ```javascript
 add(x, y) {
   return x + y;
 }
 ```
-#### Example:
+##### Example:
 ```javascript
 require_math.Basic_Math.add(1, 2); // 3
-
+```
 ### Formulas
