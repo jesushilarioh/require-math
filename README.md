@@ -31,52 +31,52 @@ require_math.Basic_Math.multiply(1, 2);  // 2
 require_math.Basic_Math.subtract(1, 2);  // -1
 ```
 ### *require_math.Formulas.Area* 
-#### .circle()
+#### .circle(radius)
 ```javascript
 require_math.Formulas.Area.circle(25); // 1963.4954084936207
 ```
-#### .ellipse()
+#### .ellipse(semimajor axis 1, semimajor axis 2)
 ```javascript
 require_math.Formulas.Area.ellipse(2, 5);  // 31.41592653589793
 ```
-#### .parallelogram()
+#### .parallelogram(base, height)
 ```javascript
 require_math.Formulas.Area.parallelogram(2, 5);    // 10
 ```
-#### .rectangle()
+#### .rectangle(length, width)
 ```javascript
 require_math.Formulas.Area.rectangle(2, 5);    // 10
 ```
-#### .square()
+#### .square(side)
 ```javascript
 require_math.Formulas.Area.square(25); // 625
 ```
-#### .trapezoid()
+#### .trapezoid(base 1, base 2, height)
 ```javascript
 require_math.Formulas.Area.trapezoid(2, 5, 3); // 10.5
 ```
-#### .triangle()
+#### .triangle(base, height)
 ```javascript
 require_math.Formulas.Area.triangle(2, 5); //5
 ```
 ### *require_math.Formulas.Volume* 
-#### .cube()
+#### .cube(side)
 ```javascript
 require_math.Formulas.Volume.cube(3);  // 27
 ```
-#### .cylinder()
+#### .cylinder(radius, height)
 ```javascript
 require_math.Formulas.Volume.cylinder(3, 4);   // 113.09733552923255
 ```
-#### .pyramid()
+#### .pyramid(base, height)
 ```javascript
 require_math.Formulas.Volume.pyramid(3, 4);    // 4
 ```
-#### .rectangular_prism()
+#### .rectangular_prism(length, width, height)
 ```javascript
 require_math.Formulas.Volume.rectangular_prism(3, 4, 5);   // 60
 ```
-#### .sphere()
+#### .sphere(radius)
 ```javascript
 require_math.Formulas.Volume.sphere(2);    // 33.510321638291124
 ```
