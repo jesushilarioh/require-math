@@ -9,8 +9,7 @@ npm install require-math
 const require_math = require("require_math");
 ```
 ## Methods
-<br/><br/>
-### *require_math.Basic_Math*
+### *>_require_math.Basic_Math*
 #### .add()
 ```javascript
 require_math.Basic_Math.add(1, 2); // 3
@@ -31,8 +30,7 @@ require_math.Basic_Math.multiply(1, 2);  // 2
 ```javascript
 require_math.Basic_Math.subtract(1, 2);  // -1
 ```
-<br/><br/>
-### *require_math.Formulas.Area* 
+### *>_require_math.Formulas.Area* 
 #### .circle()
 ```javascript
 require_math.Formulas.Area.circle(25); // 1963.4954084936207
