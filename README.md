@@ -59,7 +59,7 @@ require_math.Formulas.Area.trapezoid(2, 5, 3); // 10.5
 ```javascript
 require_math.Formulas.Area.triangle(2, 5); //5
 ```
-### *require_math.Formulas.Area* 
+### *require_math.Formulas.Volume* 
 #### .cube()
 ```javascript
 require_math.Formulas.Volume.cube(3);  // 27
