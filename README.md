@@ -9,8 +9,8 @@ npm install require-math
 const require_math = require("require_math");
 ```
 ## Methods
-### require_math.Basic_Math
--------------
+### *require_math.Basic_Math*
+
 #### .add()
 ```javascript
 require_math.Basic_Math.add(1, 2); // 3
