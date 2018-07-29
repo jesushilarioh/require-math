@@ -31,9 +31,8 @@ require_math.Basic_Math.multiply(1, 2);  // 2
 ```javascript
 require_math.Basic_Math.subtract(1, 2);  // -1
 ```
-### *require_math.Formulas*
-#### Area
-##### .circle()
+### *require_math.Formulas.Area* 
+#### .circle()
 ```javascript
 require_math.Formulas.Area.circle(25); // 1963.4954084936207
 ```
