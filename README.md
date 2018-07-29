@@ -5,7 +5,7 @@ At this point I have decided to make this repository into a npm publish package.
 
 ### Basic-Math
 ```javascript
-require_math.Basic-Math.add(a, b);
+require_math.Basic_Math.add(a, b);
 ```
 
 ### Formulas
