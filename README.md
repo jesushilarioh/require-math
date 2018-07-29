@@ -8,24 +8,25 @@ npm install require-math
 ```javascript
 const require_math = require("require_math");
 ```
-## require_math.Basic_Math
-### .add()
+## Methods
+### require_math.Basic_Math
+#### .add()
 ```javascript
 require_math.Basic_Math.add(1, 2); // 3
 ```
-### .divde()
+#### .divde()
 ```javascript
 console.log(math.Basic_Math.divide(1, 2));  // 0.5
 ```
-### .modulus()
+#### .modulus()
 ```javascript
 console.log(math.Basic_Math.modulus(1, 2)); // 1
 ```
-### .multiply()
+#### .multiply()
 ```javascript
 console.log(math.Basic_Math.multiply(1, 2));  // 2
 ```
-### .subtract()
+#### .subtract()
 ```javascript
 console.log(math.Basic_Math.subtract(1, 2));  // -1
 ```
