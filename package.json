@@ -1,0 +1,26 @@
+{
+  "name": "require-math",
+  "version": "1.0.0",
+  "description": "This package helps with basic mathematic calculations and computations.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jesushilarioh/require-math.git"
+  },
+  "keywords": [
+    "math",
+    "formulas",
+    "mathematics",
+    "arithmetic",
+    "geometry"
+  ],
+  "author": "Jesus Hilario Hernandez <jesushilariohernandez@gmail.com> (https://jesushilarioh.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jesushilarioh/require-math/issues"
+  },
+  "homepage": "https://github.com/jesushilarioh/require-math#readme"
+}
