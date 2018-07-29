@@ -8,7 +8,7 @@ add(x, y) {
   return x + y;
 }
 ```
-#### Example:
+#### In Play:
 ```javascript
 require_math.Basic_Math.add(1, 2); // 3
 ```
