@@ -59,3 +59,24 @@ require_math.Formulas.Area.trapezoid(2, 5, 3); // 10.5
 ```javascript
 require_math.Formulas.Area.triangle(2, 5); //5
 ```
+### *require_math.Formulas.Area* 
+#### .cube()
+```javascript
+require_math.Formulas.Volume.cube(3);  // 27
+```
+#### .cylinder()
+```javascript
+require_math.Formulas.Volume.cylinder(3, 4);   // 113.09733552923255
+```
+#### .pyramid()
+```javascript
+require_math.Formulas.Volume.pyramid(3, 4);    // 4
+```
+#### .rectangular_prism()
+```javascript
+require_math.Formulas.Volume.rectangular_prism(3, 4, 5);   // 60
+```
+#### .sphere()
+```javascript
+require_math.Formulas.Volume.sphere(2);    // 33.510321638291124
+```
