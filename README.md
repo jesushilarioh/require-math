@@ -5,10 +5,14 @@ At this point I have decided to make this repository into a npm publish package.
 
 ### Basic-Math
 #### add()
+Syntax
+```javascript
+add(x, y) {
+  return x + y;
+}
+```
+Example
 ```javascript
 require_math.Basic_Math.add(1, 2); // 3
-// add(x, y) {
-//   return x + y;
-// }
-```
+
 ### Formulas
