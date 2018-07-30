@@ -84,35 +84,35 @@ require_math.Formulas.Volume.sphere(2);    // 33.510321638291124
 #### .Area = {}
 ##### .inner_outer_radius_defined(inner radius, outer radius)
 ```javascript
-require_math.Geometry_2d.Annulus.Area.inner_outer_radius_defined(r, R);
+require_math.Geometry_2D.Annulus.Area.inner_outer_radius_defined(r, R);
 ```
 ##### .average_radius_width_defined(average radius, width)
 ```javascript
-require_math.Geometry_2d.Annulus.Area.average_radius_width_defined(p, w);
+require_math.Geometry_2D.Annulus.Area.average_radius_width_defined(p, w);
 ```
 #### .Average_radius(inner radius, outer radius)
 ```javascript
-require_math.Geometry_2d.Annulus.Average_radius(r, R);
+require_math.Geometry_2D.Annulus.Average_radius(r, R);
 ```
 #### .Width(inner radius, outer radius)
 ```javascript
-require_math.Geometry_2d.Annulus.Width(r, R);
+require_math.Geometry_2D.Annulus.Width(r, R);
 ```
 ### *require_math.Geometry_2D.Circle*
 #### .Area(radius)
 ```javascript
-require_math.Geometry_2d.Circle.Area(r);
+require_math.Geometry_2D.Circle.Area(r);
 ```
 #### .Circumference = {}
 ##### .diameter_defined(diameter)
 ```javascript
-require_math.Geometry_2d.Circle.Circumference.diameter_defined(d);
+require_math.Geometry_2D.Circle.Circumference.diameter_defined(d);
 ```
 ##### .radius_defined(radius)
 ```javascript
-require_math.Geometry_2d.Circle.Circumference.radius_defined(r);
+require_math.Geometry_2D.Circle.Circumference.radius_defined(r);
 ```
 #### .Diameter(radius)
 ```javascript
-require_math.Geometry_2d.Circle.Diameter(r);
+require_math.Geometry_2D.Circle.Diameter(r);
 ```
