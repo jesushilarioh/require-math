@@ -80,3 +80,12 @@ require_math.Formulas.Volume.rectangular_prism(3, 4, 5);   // 60
 ```javascript
 require_math.Formulas.Volume.sphere(2);    // 33.510321638291124
 ```
+### *require_math.Geometry_2D.Annulus*
+#### .Area
+##### .inner_outer_radius_defined(r, R);
+```javascript
+require_math.Geometry_2d.Annulus.Area.inner_outer_radius_defined(r, R);
+```
+##### .average_radius_width_defined(r, R);
+```javascript
+require_math.Geometry_2d.Annulus.Area.average_radius_width_defined(p, w)
