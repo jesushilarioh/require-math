@@ -18,7 +18,7 @@ exports.Basic_Math = {
 
 exports.Geometry_2D = {
   Annulus = {
-    area = {
+    Area = {
       inner_outer_radius_defined(r, R) {
         return Math.PI * (Math.pow(R, 2) - Math.pow(r, 2));
       },
@@ -26,10 +26,10 @@ exports.Geometry_2D = {
         return 2 * Math.PI * p * w;
       }
     },
-    average_radius(r, R) {
+    Average_radius(r, R) {
       return .5 * (r + R);
     },
-    width(r, R) {
+    Width(r, R) {
       return R - r;
     }
   },
