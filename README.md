@@ -81,7 +81,10 @@ require_math.Formulas.Volume.rectangular_prism(3, 4, 5);   // 60
 require_math.Formulas.Volume.sphere(2);    // 33.510321638291124
 ```
 ### *require_math.Geometry_2D.Annulus*
-#### .Area = {inner_outer_radius_defined, average_radius_width_defined}
+#### .Area = {
+####   inner_outer_radius_defined,
+####   average_radius_width_defined
+#### }
 ##### .inner_outer_radius_defined(inner radius, outer radius)
 ```javascript
 require_math.Geometry_2D.Annulus.Area.inner_outer_radius_defined(r, R);
@@ -103,7 +106,10 @@ require_math.Geometry_2D.Annulus.Width(r, R);
 ```javascript
 require_math.Geometry_2D.Circle.Area(r);
 ```
-#### .Circumference = {diameter_defined, radius_defined}
+#### .Circumference = {
+####   diameter_defined,
+####   radius_defined
+#### }
 ##### .diameter_defined(diameter)
 ```javascript
 require_math.Geometry_2D.Circle.Circumference.diameter_defined(d);
