@@ -34,10 +34,10 @@ exports.Geometry_2D = {
     }
   },
   Circle = {
-    area(r) {
+    Area(r) {
       return Math.PI * Math.pow(r, 2);
     },
-    circumference = {
+    Circumference = {
       diameter_defined(d) {
         return Math.PI * d;
       },
@@ -45,7 +45,7 @@ exports.Geometry_2D = {
         return 2 * Math.PI * r;
       }
     },
-    diameter(r){
+    Diameter(r){
       return 2 * r;
     } 
   }
