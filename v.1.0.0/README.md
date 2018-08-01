@@ -6,7 +6,7 @@ npm install require-math
 ```
 ## Start
 ```javascript
-const require_math = require("require_math");
+const require_math = require("require-math");
 ```
 ## Methods
 ### *require_math.Basic_Math*
