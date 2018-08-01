@@ -1,6 +1,6 @@
 {
   "name": "require-math",
-  "version": "2.0.12",
+  "version": "3.0.0",
   "description": "This package helps with basic mathematic calculations and computations.",
   "main": "index.js",
   "scripts": {
