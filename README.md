@@ -9,110 +9,114 @@ npm install require-math
 const require_math = require("require_math");
 ```
 ## Methods
-### *require_math.Basic_Math*
-#### .add()
+### *basic-math*
+#### .Add()
 ```javascript
-require_math.Basic_Math.add(1, 2); // 3
+require_math.Add(1, 2); // 3
 ```
-#### .divide()
+#### .Divide()
 ```javascript
-require_math.Basic_Math.divide(1, 2);  // 0.5
+require_math.Divide(1, 2);  // 0.5
 ```
-#### .modulus()
+#### .Modulus()
 ```javascript
-require_math.Basic_Math.modulus(1, 2); // 1
+require_math.Modulus(1, 2); // 1
 ```
-#### .multiply()
+#### .Multiply()
 ```javascript
-require_math.Basic_Math.multiply(1, 2);  // 2
+require_math.Multiply(1, 2);  // 2
 ```
-#### .subtract()
+#### .Subtract()
 ```javascript
-require_math.Basic_Math.subtract(1, 2);  // -1
+require_math.Subtract(1, 2);  // -1
 ```
-### *require_math.Formulas.Area* 
+### *formulas*
+### *.Area = {}* 
 #### .circle(radius)
 ```javascript
-require_math.Formulas.Area.circle(25); // 1963.4954084936207
+require_math.Area.circle(25); // 1963.4954084936207
 ```
 #### .ellipse(semimajor axis 1, semimajor axis 2)
 ```javascript
-require_math.Formulas.Area.ellipse(2, 5);  // 31.41592653589793
+require_math.Area.ellipse(2, 5);  // 31.41592653589793
 ```
 #### .parallelogram(base, height)
 ```javascript
-require_math.Formulas.Area.parallelogram(2, 5);    // 10
+require_math.Area.parallelogram(2, 5); // 10
 ```
 #### .rectangle(length, width)
 ```javascript
-require_math.Formulas.Area.rectangle(2, 5);    // 10
+require_math.Area.rectangle(2, 5); // 10
 ```
 #### .square(side)
 ```javascript
-require_math.Formulas.Area.square(25); // 625
+require_math.Area.square(25);  // 625
 ```
 #### .trapezoid(base 1, base 2, height)
 ```javascript
-require_math.Formulas.Area.trapezoid(2, 5, 3); // 10.5
+require_math.Area.trapezoid(2, 5, 3);  // 10.5
 ```
 #### .triangle(base, height)
 ```javascript
-require_math.Formulas.Area.triangle(2, 5); //5
+require_math.Area.triangle(2, 5); //5
 ```
-### *require_math.Formulas.Volume* 
+
+### *.Volume = {}* 
 #### .cube(side)
 ```javascript
-require_math.Formulas.Volume.cube(3);  // 27
+require_math.Volume.cube(3);  // 27
 ```
 #### .cylinder(radius, height)
 ```javascript
-require_math.Formulas.Volume.cylinder(3, 4);   // 113.09733552923255
+require_math.Volume.cylinder(3, 4);  // 113.09733552923255
 ```
 #### .pyramid(base, height)
 ```javascript
-require_math.Formulas.Volume.pyramid(3, 4);    // 4
+require_math.Volume.pyramid(3, 4); // 4
 ```
 #### .rectangular_prism(length, width, height)
 ```javascript
-require_math.Formulas.Volume.rectangular_prism(3, 4, 5);   // 60
+require_math.Volume.rectangular_prism(3, 4, 5);  // 60
 ```
 #### .sphere(radius)
 ```javascript
-require_math.Formulas.Volume.sphere(2);    // 33.510321638291124
+require_math.Volume.sphere(2); // 33.510321638291124
 ```
-### *require_math.Geometry_2D.Annulus*
-#### .Area = {*inner_outer_radius_defined*, *average_radius_width_defined*}
+
+### *2D-shapes*
+### *.Annulus = {}*
+#### .Area = {}
 ##### .inner_outer_radius_defined(inner radius, outer radius)
 ```javascript
-require_math.Geometry_2D.Annulus.Area.inner_outer_radius_defined(r, R);
+require_math.Annulus.Area.inner_outer_radius_defined(r, R);
 ```
 ##### .average_radius_width_defined(average radius, width)
 ```javascript
-require_math.Geometry_2D.Annulus.Area.average_radius_width_defined(p, w);
+require_math.Annulus.Area.average_radius_width_defined(p, w);
 ```
 #### .Average_radius(inner radius, outer radius)
 ```javascript
-require_math.Geometry_2D.Annulus.Average_radius(r, R);
+require_math.Annulus.Average_radius(r, R);
 ```
 #### .Width(inner radius, outer radius)
 ```javascript
-require_math.Geometry_2D.Annulus.Width(r, R);
+require_math.Annulus.Width(r, R);
 ```
-### *require_math.Geometry_2D.Circle*
+### *.Circle = {}*
 #### .Area(radius)
 ```javascript
-require_math.Geometry_2D.Circle.Area(r);
+require_math.Circle.Area(r);
 ```
 #### .Circumference = {*diameter_defined*, *radius_defined*}
 ##### .diameter_defined(diameter)
 ```javascript
-require_math.Geometry_2D.Circle.Circumference.diameter_defined(d);
+require_math.Circle.Circumference.diameter_defined(d);
 ```
 ##### .radius_defined(radius)
 ```javascript
-require_math.Geometry_2D.Circle.Circumference.radius_defined(r);
+require_math.Circle.Circumference.radius_defined(r);
 ```
 #### .Diameter(radius)
 ```javascript
-require_math.Geometry_2D.Circle.Diameter(r);
+require_math.Circle.Diameter(r);
 ```
