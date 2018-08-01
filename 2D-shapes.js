@@ -1,5 +1,5 @@
 // 2D-shapes
-exports.Annulus = {
+module.exports.Annulus = {
   Area = {
     inner_outer_radius_defined(r, R) {
       return Math.PI * (Math.pow(R, 2) - Math.pow(r, 2));
@@ -15,7 +15,7 @@ exports.Annulus = {
     return R - r;
   }
 };
-exports.Circle = {
+module.exports.Circle = {
   Area(r) {
     return Math.PI * Math.pow(r, 2);
   },

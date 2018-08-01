@@ -1,5 +1,5 @@
 // Formulas
-exports.Area = {
+module.exports.Area = {
   circle(r) {
     return Math.PI * Math.pow(r, 2);
   },
@@ -23,7 +23,7 @@ exports.Area = {
   }
 };
 
-exports.Volume = {
+module.exports.Volume = {
   cube(s) {
     return Math.pow(s, 3);
   },
