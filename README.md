@@ -1,4 +1,4 @@
-# require-math
+# require_math
 require-math is a project I've embarked upon while learning how to use the require in Node.js; Specifically, using the require keyword to require files within a project to use their functions by way of module exports. This repository has been published to npm.
 ## Install
 ```
@@ -85,7 +85,7 @@ require_math.Volume.sphere(2); // 33.510321638291124
 
 ### *2D-shapes*
 ### *.Annulus = {}*
-#### .Area = {}
+#### .Area: {}
 ##### .inner_outer_radius_defined(inner radius, outer radius)
 ```javascript
 require_math.Annulus.Area.inner_outer_radius_defined(r, R);
@@ -107,7 +107,7 @@ require_math.Annulus.Width(r, R);
 ```javascript
 require_math.Circle.Area(r);
 ```
-#### .Circumference = {*diameter_defined*, *radius_defined*}
+#### .Circumference: {*diameter_defined*, *radius_defined*}
 ##### .diameter_defined(diameter)
 ```javascript
 require_math.Circle.Circumference.diameter_defined(d);
