@@ -9,11 +9,13 @@ npm install require-math
 // Load all categories 
 const require_math = require("require-math");
 
-// Load methods for specific categories
+// Load methods for basic-math
 const basic_math    = require("require-math/basic-math");
 
+// Load methods for formulas
 const math_formulas = require("require-math/formulas");
 
+// Load methods for 2D-shapes
 const shapes_2D     = require("require-math/2D-shapes");
 ```
 ## Methods
