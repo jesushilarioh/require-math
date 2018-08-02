@@ -32,55 +32,55 @@ require_math.Subtract(1, 2);  // -1
 ```
 ### *formulas*
 ### *.Area = {}* 
-#### .circle(radius)
+#### .Circle(radius)
 ```javascript
-require_math.Area.circle(25); // 1963.4954084936207
+require_math.Area.Circle(25); // 1963.4954084936207
 ```
-#### .ellipse(semimajor axis 1, semimajor axis 2)
+#### .Ellipse(semimajor axis 1, semimajor axis 2)
 ```javascript
-require_math.Area.ellipse(2, 5);  // 31.41592653589793
+require_math.Area.Ellipse(2, 5);  // 31.41592653589793
 ```
-#### .parallelogram(base, height)
+#### .Parallelogram(base, height)
 ```javascript
-require_math.Area.parallelogram(2, 5); // 10
+require_math.Area.Parallelogram(2, 5); // 10
 ```
-#### .rectangle(length, width)
+#### .Rectangle(length, width)
 ```javascript
-require_math.Area.rectangle(2, 5); // 10
+require_math.Area.Rectangle(2, 5); // 10
 ```
-#### .square(side)
+#### .Square(side)
 ```javascript
-require_math.Area.square(25);  // 625
+require_math.Area.Square(25);  // 625
 ```
-#### .trapezoid(base 1, base 2, height)
+#### .Trapezoid(base 1, base 2, height)
 ```javascript
-require_math.Area.trapezoid(2, 5, 3);  // 10.5
+require_math.Area.Trapezoid(2, 5, 3);  // 10.5
 ```
-#### .triangle(base, height)
+#### .Triangle(base, height)
 ```javascript
-require_math.Area.triangle(2, 5); //5
+require_math.Area.Triangle(2, 5); //5
 ```
 
 ### *.Volume = {}* 
-#### .cube(side)
+#### .Cube(side)
 ```javascript
-require_math.Volume.cube(3);  // 27
+require_math.Volume.Cube(3);  // 27
 ```
-#### .cylinder(radius, height)
+#### .Cylinder(radius, height)
 ```javascript
-require_math.Volume.cylinder(3, 4);  // 113.09733552923255
+require_math.Volume.Cylinder(3, 4);  // 113.09733552923255
 ```
-#### .pyramid(base, height)
+#### .Pyramid(base, height)
 ```javascript
-require_math.Volume.pyramid(3, 4); // 4
+require_math.Volume.Pyramid(3, 4); // 4
 ```
-#### .rectangular_prism(length, width, height)
+#### .Rectangular_prism(length, width, height)
 ```javascript
-require_math.Volume.rectangular_prism(3, 4, 5);  // 60
+require_math.Volume.Rectangular_prism(3, 4, 5);  // 60
 ```
-#### .sphere(radius)
+#### .Sphere(radius)
 ```javascript
-require_math.Volume.sphere(2); // 33.510321638291124
+require_math.Volume.Sphere(2); // 33.510321638291124
 ```
 
 ### *2D-shapes*
@@ -94,9 +94,9 @@ require_math.Annulus.Area.inner_outer_radius_defined(r, R);
 ```javascript
 require_math.Annulus.Area.average_radius_width_defined(p, w);
 ```
-#### .Average_radius(inner radius, outer radius)
+#### .Average_Radius(inner radius, outer radius)
 ```javascript
-require_math.Annulus.Average_radius(r, R);
+require_math.Annulus.Average_Radius(r, R);
 ```
 #### .Width(inner radius, outer radius)
 ```javascript

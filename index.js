@@ -21,42 +21,42 @@ exports.Subtract = function (x, y) {
 // formulas
 // formulas
 exports.Area = {
-  circle: circle = function(r) {
+  Circle: Circle = function(r) {
     return Math.PI * Math.pow(r, 2);
   },
-  ellipse: ellipse = function(a, b) {
+  Ellipse: Ellipse = function(a, b) {
     return Math.PI * a * b;
   },
-  parallelogram: parallelogram = function(b, h) {
+  Parallelogram: Parallelogram = function(b, h) {
     return b * h;
   },
-  rectangle: rectangle = function(l, w) {
+  Rectangle: Rectangle = function(l, w) {
     return l * w;
   },
-  square: square = function(s) {
+  Square: Square = function(s) {
     return Math.pow(s, 2);
   },
-  trapezoid: trapezoid = function(a, b, h) {
+  Trapezoid: Trapezoid = function(a, b, h) {
     return ((a + b) / 2) * h;
   },
-  triangle: triangle = function(b, h) {
+  Triangle: Triangle = function(b, h) {
     return (b * h) / 2;
   }
 };
 exports.Volume = {
-  cube: cube = function(s) {
+  Cube: Cube = function(s) {
     return Math.pow(s, 3)
   },
-  cylinder: cylinder = function(r, h) {
+  Cylinder: Cylinder = function(r, h) {
     return Math.PI * Math.pow(r, 2) * h;
   },
-  pyramid: pyramid = function(b, h) {
+  Pyramid: Pyramid = function(b, h) {
     return (1/3) * b * h;
   },
-  rectangular_prism: rectangular_prism = function(l, w, h) {
+  Rectangular_prism: Rectangular_prism = function(l, w, h) {
     return l * w * h;
   },
-  sphere: sphere = function(r) {
+  Sphere: Sphere = function(r) {
     return (4 * Math.PI * Math.pow(r, 3)) / 3;
   }
 };
@@ -73,7 +73,7 @@ exports.Annulus = {
       return 2 * Math.PI * p * w;
     }
   },
-  Average_radius: Average_radius = function(r, R) {
+  Average_Radius: Average_Radius = function(r, R) {
     return .5 * (r + R);
   },
   Width: Width = function(r, R) {
