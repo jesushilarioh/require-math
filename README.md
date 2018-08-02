@@ -74,9 +74,9 @@ require_math.Volume.Cylinder(3, 4);  // 113.09733552923255
 ```javascript
 require_math.Volume.Pyramid(3, 4); // 4
 ```
-#### .Rectangular_prism(length, width, height)
+#### .Rectangular_Prism(length, width, height)
 ```javascript
-require_math.Volume.Rectangular_prism(3, 4, 5);  // 60
+require_math.Volume.Rectangular_Prism(3, 4, 5);  // 60
 ```
 #### .Sphere(radius)
 ```javascript

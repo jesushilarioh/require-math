@@ -1,42 +1,43 @@
-// Formulas
-module.exports.Area = {
-  circle(r) {
+// formulas
+// formulas
+// formulas
+exports.Area = {
+  Circle: Circle = function(r) {
     return Math.PI * Math.pow(r, 2);
   },
-  ellipse(a, b) {
+  Ellipse: Ellipse = function(a, b) {
     return Math.PI * a * b;
   },
-  parallelogram(b, h) {
+  Parallelogram: Parallelogram = function(b, h) {
     return b * h;
   },
-  rectangle(l, w) {
+  Rectangle: Rectangle = function(l, w) {
     return l * w;
   },
-  square(s) {
+  Square: Square = function(s) {
     return Math.pow(s, 2);
   },
-  trapezoid(a, b, h) {
+  Trapezoid: Trapezoid = function(a, b, h) {
     return ((a + b) / 2) * h;
   },
-  triangle(b, h) {
+  Triangle: Triangle = function(b, h) {
     return (b * h) / 2;
   }
 };
-
-module.exports.Volume = {
-  cube(s) {
-    return Math.pow(s, 3);
+exports.Volume = {
+  Cube: Cube = function(s) {
+    return Math.pow(s, 3)
   },
-  cylinder(r, h) {
+  Cylinder: Cylinder = function(r, h) {
     return Math.PI * Math.pow(r, 2) * h;
   },
-  pyramid(b, h) {
+  Pyramid: Pyramid = function(b, h) {
     return (1/3) * b * h;
   },
-  rectangular_prism(l, w, h) {
+  Rectangular_Prism: Rectangular_Prism = function(l, w, h) {
     return l * w * h;
   },
-  sphere(r) {
+  Sphere: Sphere = function(r) {
     return (4 * Math.PI * Math.pow(r, 3)) / 3;
   }
 };

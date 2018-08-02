@@ -53,7 +53,7 @@ exports.Volume = {
   Pyramid: Pyramid = function(b, h) {
     return (1/3) * b * h;
   },
-  Rectangular_prism: Rectangular_prism = function(l, w, h) {
+  Rectangular_Prism: Rectangular_Prism = function(l, w, h) {
     return l * w * h;
   },
   Sphere: Sphere = function(r) {

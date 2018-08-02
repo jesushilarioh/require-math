@@ -10,7 +10,7 @@ exports.Annulus = {
       return 2 * Math.PI * p * w;
     }
   },
-  Average_radius: Average_radius = function(r, R) {
+  Average_Radius: Average_Radius = function(r, R) {
     return .5 * (r + R);
   },
   Width: Width = function(r, R) {
