@@ -6,7 +6,12 @@ npm install require-math
 ```
 ## Start
 ```javascript
+// Load all categories 
 const require_math = require("require-math");
+// Load specific categories
+const basic_math    = require("require-math/basic-math");
+const math_formulas = require("require-math/formulas");
+const shapes_2D     = require("require-math/2D-shapes");
 ```
 ## Methods
 ### *basic-math*
