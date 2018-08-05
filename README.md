@@ -42,14 +42,14 @@ require_math.Subtract(1, 2);  // -1
 ```
 ### **formulas**
 ### *.Area = {}* 
-#### .Annulus: {}
-##### .inner_outer_radius_defined(inner radius, outer radius)
-```javascript
-require_math.Annulus.Area.inner_outer_radius_defined(34, 6); // -3518.583772020568
-```
+#### .Annulus: {*average_radius_width_defined*, *inner_outer_radius_defined*}
 ##### .average_radius_width_defined(average radius, width)
 ```javascript
 require_math.Annulus.Area.average_radius_width_defined(45, 5); // 1413.7166941154069
+```
+##### .inner_outer_radius_defined(inner radius, outer radius)
+```javascript
+require_math.Annulus.Area.inner_outer_radius_defined(34, 6); // -3518.583772020568
 ```
 #### .Circle(radius)
 ```javascript
@@ -66,6 +66,19 @@ require_math.Area.Parallelogram(2, 5); // 10
 #### .Rectangle(length, width)
 ```javascript
 require_math.Area.Rectangle(2, 5); // 10
+```
+#### .Regular_Polygon: {*number_of_sides_and_side_length_defined*, *number_of_sides_defined*}
+##### .number_of_sides_and_side_length_defined(number of sides, side length)
+```javascript
+require_math.Area.Regular_Polygon.number_of_sides_and_side_length_defined(3, 4); // 6.928203230275511
+```
+##### .number_of_sides_defined(number of sides, circumradius)
+```javascript
+require_math.Area.Regular_Polygon.number_of_sides_defined(6, 5)); // 64.9519052838329
+```
+#### .Sector_Of_Circle(angle in radians, radius)
+```javascript
+require_math.Area.Sector_Of_Circle(55, 20);    // 11000
 ```
 #### .Square(side)
 ```javascript

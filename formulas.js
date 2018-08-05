@@ -25,7 +25,7 @@ exports.Area = {
   Rectangle: Rectangle = function(l, w) {
     return l * w;
   },
-  Rectangle_Polygon: {
+  Regular_Polygon: {
     number_of_sides_and_side_length_defined(n, s) {
       return .25 * n * Math.pow(s, 2) * (1 / Math.tan(Math.PI / n));
     },

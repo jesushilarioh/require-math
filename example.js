@@ -34,8 +34,8 @@ console.log(require_math.Area.Ellipse(2, 5));  // 31.41592653589793
 console.log(require_math.Area.Equilateral_Triangle(5)); // 10.825317547305483
 console.log(require_math.Area.Parallelogram(2, 5));    // 10
 console.log(require_math.Area.Rectangle(2, 5));    // 10
-console.log(require_math.Area.Rectangle_Polygon.number_of_sides_and_side_length_defined(3, 4)); // 6.928203230275511
-console.log(require_math.Area.Rectangle_Polygon.number_of_sides_defined(6, 5)); // 64.9519052838329
+console.log(require_math.Area.Regular_Polygon.number_of_sides_and_side_length_defined(3, 4)); // 6.928203230275511
+console.log(require_math.Area.Regular_Polygon.number_of_sides_defined(6, 5)); // 64.9519052838329
 console.log(require_math.Area.Sector_Of_Circle(55, 20));    // 11000
 console.log(require_math.Area.Square(25)); // 625
 console.log(require_math.Area.Trapezoid(2, 5, 3)); // 10.5
