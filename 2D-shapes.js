@@ -43,7 +43,7 @@ exports.Ellipse = {
   }
 };
 exports.Equilateral_Triangle = {
-  Area() {
+  Area(s) {
     return (Math.sqrt(3) / 4) * Math.pow(s, 2);
   },
   Height(s) {

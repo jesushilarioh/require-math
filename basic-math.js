@@ -1,4 +1,6 @@
-// Basic Math
+// basic-math
+// basic-math
+// basic-math
 exports.Add = function (x, y){
   return x + y;
 };
