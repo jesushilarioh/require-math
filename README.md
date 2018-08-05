@@ -10,7 +10,7 @@ npm i require-math
 ## Install (in browser)
 [![](https://data.jsdelivr.com/v1/package/npm/require-math/badge)](https://www.jsdelivr.com/package/npm/require-math)
 ```html
-<script src="https://cdn.jsdelivr.net/npm/require-math@3.1.1/index.js" integrity="sha256-Ph2t4NqVt3fVbSBJqusDrLyu5ae5q9Z6V7DRmzicJog=" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/require-math@3.1.1/index.min.js"></script>
 ```
 ## Start
 ```javascript
