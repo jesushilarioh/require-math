@@ -62,7 +62,7 @@ exports.Area = {
     return ((.5 * (a + b)) * h);
   },
   Triangle: Triangle = function(b, h) {
-    return (b * h) / 2;
+    return .5 * b * h;
   }
 };
 exports.Volume = {
@@ -79,7 +79,7 @@ exports.Volume = {
     return l * w * h;
   },
   Sphere: Sphere = function(r) {
-    return (4 * Math.PI * Math.pow(r, 3)) / 3;
+    return (4 / 3) *  Math.PI * Math.pow(r, 3);
   }
 };
 
@@ -124,7 +124,7 @@ exports.Ellipse = {
   },
   Circumference(a, b) {
     // Approximation
-    return Math.PI * (3 * (a + b) - Math.sqrt((a + (3 * b) * (b + (3 * a)))));
+    return Math.PI * ((3 * (a + b)) - Math.sqrt((a + (3 * b)) * (b + (3 * a))));
   }
 };
 exports.Equilateral_Triangle = {

@@ -39,7 +39,7 @@ exports.Ellipse = {
   },
   Circumference(a, b) {
     // Approximation
-    return Math.PI * (3 * (a + b) - Math.sqrt((a + (3 * b) * (b + (3 * a)))));
+    return Math.PI * ((3 * (a + b)) - Math.sqrt((a + (3 * b)) * (b + (3 * a))));
   }
 };
 exports.Equilateral_Triangle = {
