@@ -3,11 +3,11 @@
 // 2D-shapes
 exports.Annulus = {
   Area: {
-    inner_outer_radius_defined: inner_outer_radius_defined = function(r, R) {
-      return Math.PI * (Math.pow(R, 2) - Math.pow(r, 2));
-    },
     average_radius_width_defined: average_radius_width_defined = function(p, w) {
       return 2 * Math.PI * p * w;
+    },
+    inner_outer_radius_defined: inner_outer_radius_defined = function(r, R) {
+      return Math.PI * (Math.pow(R, 2) - Math.pow(r, 2));
     }
   },
   Average_Radius: Average_Radius = function(r, R) {
@@ -32,4 +32,21 @@ exports.Circle = {
   Diameter: Diameter = function(r){
     return 2 * r;
   } 
+};
+exports.Ellipse = {
+  Area(a, b) {
+    return Math.PI * a * b;
+  },
+  Circumference(a, b) {
+    // Approximation
+    return Math.PI * (3 * (a + b) - Math.sqrt((a + (3 * b) * (b + (3 * a)))));
+  }
+};
+exports.Equilateral_Triangle = {
+  Area() {
+    return (Math.sqrt(3) / 4) * Math.pow(s, 2);
+  },
+  Height(s) {
+    return (Math.sqrt(3) / 2) * s;
+  }
 };
