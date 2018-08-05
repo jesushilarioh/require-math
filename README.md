@@ -165,3 +165,12 @@ require_math.Ellipse.Area(5, 6);   // 94.24777960769379
 ```javascript
 require_math.Ellipse.Circumference(2, 35); // 142.54116485619627
 ```
+### *.Equilateral_Triangle = {}*
+#### .Area(side)
+```javascript
+require_math.Equilateral_Triangle.Area(25);    // 270.6329386826371
+```
+#### .Height(side)
+```javascript
+require_math.Equilateral_Triangle.Height(25);  // 21.650635094610966
+```
