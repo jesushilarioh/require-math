@@ -18,14 +18,6 @@ console.log("Formulas");
 console.log("Formulas");
 console.log("\n");
 
-console.log("Volume");
-console.log(require_math.Volume.Cube(3));  // 27
-console.log(require_math.Volume.Cylinder(3, 4));   // 113.09733552923255
-console.log(require_math.Volume.Pyramid(3, 4));    // 4
-console.log(require_math.Volume.Rectangular_Prism(3, 4, 5));   // 60
-console.log(require_math.Volume.Sphere(2));    // 33.510321638291124
-console.log("\n");
-
 console.log("Area");
 console.log(require_math.Area.Annulus.average_radius_width_defined(45, 5)); // 1413.7166941154069
 console.log(require_math.Area.Annulus.inner_outer_radius_defined(34, 6)); // -3518.583772020568
@@ -41,6 +33,14 @@ console.log(require_math.Area.Square(25)); // 625
 console.log(require_math.Area.Trapezoid(2, 5, 3)); // 10.5
 console.log(require_math.Area.Triangle(2, 5)); //5
 
+console.log("Volume");
+console.log(require_math.Volume.Cube(3));  // 27
+console.log(require_math.Volume.Cylinder(3, 4));   // 113.09733552923255
+console.log(require_math.Volume.Pyramid(3, 4));    // 4
+console.log(require_math.Volume.Rectangular_Prism(3, 4, 5));   // 60
+console.log(require_math.Volume.Sphere(2));    // 33.510321638291124
+console.log("\n");
+
 console.log("\n");
 console.log("2D-Shapes");
 console.log("2D-Shapes");
@@ -55,7 +55,7 @@ console.log(require_math.Annulus.Width(25, 4)); // -21
 
 console.log("\n");
 console.log("Circle");
-console.log(require_math.Circle.Area(3));    // 50.26548245743669
+console.log(require_math.Circle.Area(3));    // 28.274333882308138
 console.log(require_math.Circle.Circumference.diameter_defined(68));    // 213.62830044410595
 console.log(require_math.Circle.Circumference.radius_defined(67));  // 420.97341558103227
 console.log(require_math.Circle.Diameter(29));  // 58

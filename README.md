@@ -59,6 +59,10 @@ require_math.Area.Circle(25); // 1963.4954084936207
 ```javascript
 require_math.Area.Ellipse(2, 5);  // 31.41592653589793
 ```
+#### .Equilateral_Triangle(side)
+```javascript
+require_math.Area.Equilateral_Triangle(5); // 10.825317547305483
+```
 #### .Parallelogram(base, height)
 ```javascript
 require_math.Area.Parallelogram(2, 5); // 10
@@ -151,4 +155,13 @@ require_math.Circle.Circumference.radius_defined(67);  // 420.97341558103227
 #### .Diameter(radius)
 ```javascript
 require_math.Circle.Diameter(29);  // 58
+```
+### *.Ellipse = {}*
+#### .Area(semimajor axis, semiminor axis)
+```javascript
+require_math.Ellipse.Area(5, 6);   // 94.24777960769379
+```
+#### .Circumference(semimajor axis, semiminor axis)
+```javascript
+require_math.Ellipse.Circumference(2, 35); // 142.54116485619627
 ```
