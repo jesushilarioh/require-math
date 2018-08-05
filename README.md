@@ -1,11 +1,16 @@
 # require-math
-Require-Math.js is an extension of JavaScript's built-in Math Object. It allows you to work with geometric formulas, 2D-shapes formulas, and basic math calculations. Try it out in the browser and also with Node.js
+Require-Math.js is an extension of JavaScript's built-in Math Object. It allows you to work with geometric formulas, 2D-shape formulas, and basic math calculations. Try it out in the browser and also with Node.js
 <br><br>
 Require-Math.js is a project I've embarked upon while learning how to use the require keyword in Node.js; Specifically, using the require keyword to require files within a project to use their functions by way of module exports. 
 
-## Install
+## Install (Node.js)
 ```
 npm i require-math
+```
+## Install (in browser)
+[![](https://data.jsdelivr.com/v1/package/npm/require-math/badge)](https://www.jsdelivr.com/package/npm/require-math)
+```html
+<script src="https://cdn.jsdelivr.net/npm/require-math@3.1.1/index.js" integrity="sha256-Ph2t4NqVt3fVbSBJqusDrLyu5ae5q9Z6V7DRmzicJog=" crossorigin="anonymous"></script>
 ```
 ## Start
 ```javascript
