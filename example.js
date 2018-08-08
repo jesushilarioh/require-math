@@ -69,3 +69,8 @@ console.log("\n");
 console.log("Equilateral_Triangle");
 console.log(require_math.Equilateral_Triangle.Area(25));    // 270.6329386826371
 console.log(require_math.Equilateral_Triangle.Height(25));  // 21.650635094610966
+
+console.log("\n");
+console.log("Parallelogram");
+console.log(require_math.Parallelogram.Area(5, 6)); // 30
+console.log(require_math.Parallelogram.Perimeter(2, 6)); // 16

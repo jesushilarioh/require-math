@@ -1,5 +1,7 @@
 # require-math
-require-math is an extension of JavaScript's built-in Math Object. It allows you to work with geometric formulas, 2D-shape formulas, and basic math calculations. Try it out in the browser and also with Node.js
+require-math is an extension of JavaScript's built-in Math Object. It allows you to work with geometric formulas, 2D-shape formulas, and basic math calculations. Try it out with Node.js
+npm:    https://www.npmjs.com/package/require-math
+github: https://github.com/jesushilarioh/require-math
 
 ## Install
 ```
@@ -174,4 +176,13 @@ require_math.Equilateral_Triangle.Area(25);    // 270.6329386826371
 #### .Height(side)
 ```javascript
 require_math.Equilateral_Triangle.Height(25);  // 21.650635094610966
+```
+### *.Parallelogram = {}*
+#### .Area(base, height)
+```javascript
+require_math.Parallelogram.Area(5, 6); // 30
+```
+#### .Perimeter(side, base)
+```javascript
+require_math.Parallelogram.Perimeter(2, 6); // 16
 ```

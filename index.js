@@ -135,3 +135,11 @@ exports.Equilateral_Triangle = {
     return (Math.sqrt(3) / 2) * s;
   }
 };
+exports.Parallelogram = {
+  Area(base, height) {
+    return base * height;
+  },
+  Perimeter(side, base) {
+    return (2 * side) + (2 * base);
+  }
+};
