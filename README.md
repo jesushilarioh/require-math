@@ -46,11 +46,11 @@ require_math.Subtract(1, 2);  // -1
 #### .Annulus: {*average_radius_width_defined*, *inner_outer_radius_defined*}
 ##### .average_radius_width_defined(average radius, width)
 ```javascript
-require_math.Annulus.Area.average_radius_width_defined(45, 5); // 1413.7166941154069
+require_math.Area.Annulus.average_radius_width_defined(45, 5); // 1413.7166941154069
 ```
 ##### .inner_outer_radius_defined(inner radius, outer radius)
 ```javascript
-require_math.Annulus.Area.inner_outer_radius_defined(34, 6); // -3518.583772020568
+require_math.Area.Annulus.inner_outer_radius_defined(34, 6); // -3518.583772020568
 ```
 #### .Circle(radius)
 ```javascript
