@@ -74,3 +74,13 @@ console.log("\n");
 console.log("Parallelogram");
 console.log(require_math.Parallelogram.Area(5, 6)); // 30
 console.log(require_math.Parallelogram.Perimeter(2, 6)); // 16
+
+console.log("\n");
+
+console.log(require_math.Add_All(3, 3, 3)); // 9
+var add_array = [3, 3, 3];
+console.log(require_math.Add_All.apply(null, add_array)); // 9
+
+console.log(require_math.Subtract_All(30, 50, 200)); // 120
+var arr = [30, 50, 200];
+console.log(require_math.Subtract_All.apply(null, arr)); // 120

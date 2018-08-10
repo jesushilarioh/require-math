@@ -27,6 +27,14 @@ const shapes_2D     = require("require-math/2D-shapes");
 ```javascript
 require_math.Add(1, 2); // 3
 ```
+#### .Add_All()
+```javascript
+require_math.Add_All(3, 3, 3); // 9
+
+// Or arguments as an array
+var add_array = [3, 3, 3];
+require_math.Add_All.apply(null, add_array); // 9
+```
 #### .Divide()
 ```javascript
 require_math.Divide(1, 2);  // 0.5
@@ -42,6 +50,13 @@ require_math.Multiply(1, 2);  // 2
 #### .Subtract()
 ```javascript
 require_math.Subtract(1, 2);  // -1
+```
+#### .Subtract_All()
+```javascript
+require_math.Subtract_All(30, 50, 200); // 120
+// Or arguments as an array
+var arr = [30, 50, 200];
+require_math.Subtract_All.apply(null, arr); // 120
 ```
 ### **formulas**
 ### *.Area = {}* 
