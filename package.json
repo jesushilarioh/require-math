@@ -1,7 +1,7 @@
 {
   "name": "require-math",
-  "version": "3.3.0",
-  "description": "This package helps with basic mathematic calculations and computations.",
+  "version": "3.3.1",
+  "description": "This package helps with basic mathematic calculations and computations. Including geometric and 2D-shape formulas.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
