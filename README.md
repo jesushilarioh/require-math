@@ -54,6 +54,7 @@ require_math.Subtract(1, 2);  // -1
 #### .Subtract_All()
 ```javascript
 require_math.Subtract_All(30, 50, 200); // 120
+
 // Or arguments as an array
 var arr = [30, 50, 200];
 require_math.Subtract_All.apply(null, arr); // 120
